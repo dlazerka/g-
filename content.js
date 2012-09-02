@@ -8,6 +8,6 @@ function seekAndDestroy() {
 }
 
 if (!seekAndDestroy()) {
-  // Hack for GMail
+  // Hack for GMail, anyway it's gonna show progress bar for a second. 
   window.setTimeout(seekAndDestroy, 100);
 }
