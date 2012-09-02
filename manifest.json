@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Hide G+ Notifications",
+  "version": "1.3",
+  "description": "Hides G+ notifications at all *.google.com
+    websites except plus.google.com.",
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "*://*.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
