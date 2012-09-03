@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Hide G+ Notifications",
-  "version": "1.4",
+  "version": "1.8",
   "description": "Hides G+ notifications at all *.google.com
-    websites except plus.google.com. Open-source: https://github.com/dlazerka/g-",
+    websites except plus.google.com.",
   "icons": {
     "48": "icons/48.png",
     "128": "icons/128.png"
