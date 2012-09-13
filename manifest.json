@@ -1,19 +1,20 @@
 {
   "manifest_version": 2,
   "name": "Hide G+ Notifications",
-  "version": "1.8",
-  "description": "Hides G+ notifications at all *.google.com
+  "version": "1.10",
+  "description": "Hides G+ notifications at all Google
     websites except plus.google.com.",
   "icons": {
     "48": "icons/48.png",
     "128": "icons/128.png"
   },
   "permissions": [
-    "*://*.google.com/*"
+    "*://*.google.com/*",
+    "*://*.youtube.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["*://*.google.com/*"],
+      "matches": ["*://*/*"],
       "exclude_matches": [
         "*://plus.google.com/*",
         "*://plus.sandbox.google.com/*"],
