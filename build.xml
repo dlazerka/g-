@@ -1,0 +1,11 @@
+<project name="g-" default="zip" basedir=".">
+	<target name="zip" description="Create ZIP archive to upload">
+		<delete file="g-.zip"/>
+		<zip destfile="g-.zip" update="true">
+			<zipfileset dir="icons" prefix="icons"/>
+			<file file="content.js"/>
+			<file file="manifest.json"/>
+			<file file="key.pem"/>
+		</zip>
+	</target>
+</project>

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hide G+ Notifications",
   "short_name": "G-",
-  "version": "1.13",
+  "version": "2.1",
   "description": "Hides G+ notifications at all Google websites except plus.google.com.",
   "icons": {
     "48": "icons/48.png",
